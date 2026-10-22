@@ -5,6 +5,11 @@ configuration:
   name:
     name: Name
     description: What this worker is called in Print Hub.
+  sidebar:
+    name: Print Hub in the sidebar
+    description: >-
+      Show Print Hub itself in Home Assistant's sidebar (sign in once with a
+      code). Off: the sidebar shows only the worker's settings.
   allow:
     name: More addresses
     description: >-

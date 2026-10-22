@@ -14,7 +14,8 @@ image: ghcr.io/xeonr/{arch}-printhub-worker
 init: false
 startup: application
 boot: auto
-# Its page in the sidebar: the pairing code, then whether it's connected.
+# Print Hub in the sidebar, through the worker (sign in by code); the
+# worker's own settings (pairing, Unlink) at _worker/ within it.
 ingress: true
 ingress_port: 8099
 panel_icon: mdi:printer-3d-nozzle
@@ -22,7 +23,9 @@ panel_title: Print Hub
 options:
   hub: https://printhub.xeonr.io
   name: Home Assistant
+  sidebar: true
 schema:
   hub: url
   name: str
   allow: str?
+  sidebar: bool
