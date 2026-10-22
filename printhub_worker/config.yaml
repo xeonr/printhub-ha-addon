@@ -1,6 +1,6 @@
 name: Print Hub worker
 # Set by Print Hub's pipeline when it publishes new images (the image tag).
-version: "1.0.126"
+version: "1.0.128"
 slug: printhub_worker
 description: Lets Print Hub reach the 3D printers on your home network.
 url: https://github.com/xeonr/printhub-ha-addon

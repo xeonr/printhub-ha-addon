@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.128
+
+- Sidebar base path: X-Printhub-Base, not X-Forwarded-Prefix (Traefik drops X-Forwarded-* from outside)
+
 ## 1.0.126
 
 - Print Hub in Home Assistant's sidebar: through the worker add-on, signed in by code; worker settings page with Unlink
