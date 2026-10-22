@@ -1,0 +1,13 @@
+configuration:
+  hub:
+    name: Print Hub address
+    description: Leave it as it is unless you run your own Print Hub.
+  name:
+    name: Name
+    description: What this worker is called in Print Hub.
+  allow:
+    name: More addresses
+    description: >-
+      Addresses or networks Print Hub may reach besides your home network's,
+      comma-separated (e.g. 127.0.0.1 for a printer service on Home Assistant
+      itself). Usually empty.
