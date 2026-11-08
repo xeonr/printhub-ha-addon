@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.249
+
+- Merge branch 'renovate/go-golang.org-x-sys-vulnerability' into 'main'
+
 ## 1.0.128
 
 - Sidebar base path: X-Printhub-Base, not X-Forwarded-Prefix (Traefik drops X-Forwarded-* from outside)
