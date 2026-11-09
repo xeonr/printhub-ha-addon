@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.276
+
+- Merge branch 'renovate/all-minor-patch' into 'main'
+
 ## 1.0.249
 
 - Merge branch 'renovate/go-golang.org-x-sys-vulnerability' into 'main'
